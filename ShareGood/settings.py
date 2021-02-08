@@ -27,9 +27,9 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR, "templates")
 SECRET_KEY = '*%rugsytk$qep%_$9(t4n*hzll3cf)^f&$f+1o1#212&!9#poj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
@@ -82,8 +82,12 @@ WSGI_APPLICATION = 'ShareGood.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'sharegood',
+        'USER': 'name',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
