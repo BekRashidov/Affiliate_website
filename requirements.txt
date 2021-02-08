@@ -30,10 +30,6 @@ cheroot==8.5.2
 click==7.1.2
 colorama==0.4.4
 comtypes==1.1.7
-conda==4.8.3
-conda-build==3.18.11
-conda-package-handling==1.7.0
-conda-verify==3.4.2
 contextlib2==0.6.0.post1
 cryptography==2.9.2
 cycler==0.10.0
