@@ -1,0 +1,284 @@
+{% load static %}
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+ <title>ShareGoods</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'affiliate/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'affiliate/css/modern-business.css' %}" rel="stylesheet">
+
+</head>
+
+<body style="background-color:#fcfce8;">
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="{% url 'home' %}">ShareGood</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'privacy' %}">Privacy Policy</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('{% static 'affiliate/images/1.jpg ' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>ShareGood Deals</h3>
+            <p>You can find the accessories which makes you a real gamer!</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static 'affiliate/images/2.jpg ' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>ShareGood Deals</h3>
+            <p>You can find the accessories which makes you a real gamer!</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static 'affiliate/images/3.jpg ' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>ShareGood Deals</h3>
+            <p>You can find the accessories which makes you a real gamer!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="my-4">ShareGood Deals</h1>
+
+    <!-- Marketing Icons Section -->
+  
+
+    <!-- Portfolio Section -->
+    <h2>Monitors</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2MAgjpM"><img class="card-img-top" src="{% static 'affiliate/images/d1.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2MAgjpM">LG 38GL950G-B 38 Inch UltraGear Nano</a>
+            </h4>
+            <p class="card-text">The First Nano IPS Monitor with 1ms
+                See your way to victory with the innovative 38GL950G-B UltraGear gaming monitor, providing the most crisp visuals and the sharpest clarity. You can experience breath-taking immersion on a Nano IPS display with a 1ms
+
+                38” 21:9 Curved WQHD+ (3840 x 1600) Nano IPS Display
+                Nano IPS (DCI-P3 98%) 1ms Response Time
+                NVIDIA G-SYNC
+                144Hz (175Hz Overclock)
+                VESA Display HDR 400
+                Sphere Lighting 2.0
+            </p>
+            <a href="https://amzn.to/2MAgjpM" class="btn btn-dark">$1,489.49</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2YYVMxn"><img class="card-img-top" src="{% static 'affiliate/images/d2.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2YYVMxn">Acer Predator CG437K Pbmiiippuzx</a>
+            </h4>
+            <p class="card-text">43" 4K UHD (3840 x 2160) widescreen NVIDIA G-SYNC compatible with VRR for a tear-free gaming experience
+              Refresh Rate 120Hz (overclocking to 144Hz using 2 DP ports) | Response Time: 1ms (VRB)
+              High brightness and contrast with VESA Certified displays 1000 | DCI-P3 90% wide Color gamut | No color difference with Delta e<1
+              Light sensor | Proximity Sensor | 2 10-Watts speakers
+              Available Ports: 2x DisplayPort 1.4 & 3x HDMI 2.0 | USB Hub: 2x USB 3.0 & 2x USB 2.0 Ports
+              What's Included: Display Stand, Power Cord, 2x DisplayPort cables, 1x USB Type-C cable, 4x LED light strips and remote control</p>
+            <a href="https://amzn.to/2YYVMxn" class="btn btn-dark">$1,942.22</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2N2rffw"><img class="card-img-top" src="{% static 'affiliate/images/d3.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2N2rffw">ASUS ROG Swift PG43UQ</a>
+            </h4>
+            <p class="card-text">43” 4K non-glare gaming monitor with 120Hz refresh rate for super-smooth gaming visual | Includes – (1) Display port, (3) HDMI, (1) Earphone jack, (2) USB Ports | VESA (100X100mm) Compatible
+              Product dimensions | Without stand – 38.3” L x 2.93” D x 22.46” H | With stand – 38.3” L x 9.53” D x 24.85” H | Weight – 31.3 lbs. | Voltage – 100-240V, 50/60 Hz | Aspect ratio – 16:9 | True Resolution – 3840 x 216
+              High dynamic range (HDR) technology with DisplayHDR 1000 certification and 90% DCI-P3 professional color gamut ensures exceptional contrast and color performance</p>
+            <a href="https://amzn.to/2N2rffw" class="btn btn-dark">$1,998.95</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/3tCpkPx"><img class="card-img-top" src="{% static 'affiliate/images/d4.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/3tCpkPx">AOC AGON Curved Gaming Monitor 49" (AG493UCX)</a>
+            </h4>
+            <p class="card-text">49" class AGON Professional grade curved gaming monitor with Dual QHD 5120x1440 resolution (It is like having 2x QHD monitors side-by-side)
+              Immersive 1800R curved VA panel with 1ms (MPRT) response time and 120Hz refresh rate (via DP 1. 4) with Adaptive-Sync for smooth gaming
+              Stunning imagery with DisplayHDR 400 certified performance and 121. 6% sRGB and 90% Adobe RGB color gamut coverage, ideal for photo editing
+            </p>
+            <a href="https://amzn.to/3tCpkPx" class="btn btn-dark">$1,337.99</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/3q13jrI"><img class="card-img-top" src="{% static 'affiliate/images/d5.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/3q13jrI">SAMSUNG LC49RG90SSNXZA</a>
+            </h4>
+            <p class="card-text">49 inch super ultrawide dual QHD curved gaming monitor is the equivalent of dual 27-inch QHD displays side by side, providing the enhanced productivity.
+              120 hertz refresh rate with AMD FreeSync 2 technology for crisp HDR content display, reduced input latency and low framerate compensation
+              CES 2019 best of innovation Award Winner
+              HDR 1000 supports a peak brightness rating of 1,000 nits. With Samsung QLED technology delivering colors more-brighter and truer to life.</p>
+            <a href="https://amzn.to/3q13jrI" class="btn btn-dark">$1,526.92</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2Lr1ogS"><img class="card-img-top" src="{% static 'affiliate/images/d6.jpg' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2Lr1ogS">LG 34GN850-B 34 Inch 21: 9 UltraGear Curved QHD</a>
+            </h4>
+            <p class="card-text">34” ultrawide QHD (3440 X 1440) Nano IPS display
+              IPS 1ms response time - 144Hz refresh rate
+              NVIDIA G-SYNC Compatible
+              DCI-P3 98% color gamut with VESA display HDR 400
+              3-Side virtually borderless design with Tilt/Height adjustable stand</p>
+            <a href="https://amzn.to/2Lr1ogS" class="btn btn-dark">$1,367.99</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+    <ul class="pagination justify-content-center">
+
+      <li class="page-item">
+        <a class="page-link" href="{% url 'home' %}">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="{% url 'products2' %}">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="{% url 'products3' %}">3</a>
+      </li>
+
+      </ul>
+  
+    
+
+    <!-- Features Section -->
+    <div class="row">
+      <div class="col-lg-6">
+        <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "ogabek20-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "gaming laptops";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "369da13a5ffc26fa5d72363f7cb09914";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+      </div>
+      <div class="col-lg-6">
+        <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "ogabek20-20";
+amzn_assoc_search_bar_position = "bottom";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "video games";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "369da13a5ffc26fa5d72363f7cb09914";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+      </div>
+    </div>
+    <!-- /.row -->
+<br/>
+    <hr>
+<br/>
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Do any work in anywhere with these source of powerful laptops. We have researched all of the Amazon for the affordable yet guaranteed products...</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="https://www.amazon.com/s?k=Laptops&i=computers&camp=1789&creative=9325&linkCode=ur2&linkId=0f99c3a3e03af9acb236d54123e3b028&tag=ogabek20-20">Shop ShareGoods on Amazon</a>
+      </div>
+    </div>
+    <br/><br/>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Created by BekRashidov&Sardor &copy; 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
