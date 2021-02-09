@@ -1,1 +1,1 @@
-web: gunicorn sharegood.wsgi --log-file--
+web: gunicorn sharegood.wsgi
